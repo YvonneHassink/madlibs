@@ -1188,6 +1188,39 @@
         "Built": "R 4.4.0; ; 2024-04-05 17:07:38 UTC; unix"
       }
     },
+    "pak": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "pak",
+        "Title": "Another Approach to Package Installation",
+        "Version": "0.7.2",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n    person(\"Winston\", \"Chang\", role = \"ctb\", comment = \"R6, callr, processx\"),\n    person(\"Ascent Digital Services\", role = c(\"cph\", \"fnd\"), comment = \"callr, processx\"),\n    person(\"Hadley\", \"Wickham\", role = c(\"ctb\", \"cph\"), comment = \"cli, curl, pkgbuild\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\", comment = \"curl, jsonlite\"),\n    person(\"Maëlle\", \"Salmon\", role = \"ctb\", comment = \"desc, pkgsearch\"),\n    person(\"Duncan\", \"Temple Lang\", role = \"ctb\", comment = \"jsonlite\"),\n    person(\"Lloyd\", \"Hilaiel\", role = \"cph\", comment = \"jsonlite\"),\n    person(\"Michel Berkelaar and lpSolve authors\", role = \"ctb\", comment = \"lpSolve\"),\n    person(\"R Consortium\", role = \"fnd\", comment = \"pkgsearch\"),\n    person(\"Jay\", \"Loden\", role = \"ctb\", comment = \"ps\"),\n    person(\"Dave\", \"Daeschler\", role = \"ctb\", comment = \"ps\"),\n    person(\"Giampaolo\", \"Rodola\", role = \"ctb\", comment = \"ps\"),\n    person(\"Kuba\", \"Podgórski\", role = \"ctb\", comment = \"zip\"),\n    person(\"Rich\", \"Geldreich\", role = \"ctb\", comment = \"zip\")\n  )",
+        "Description": "The goal of 'pak' is to make package installation faster and\n    more reliable. In particular, it performs all HTTP operations in\n    parallel, so metadata resolution and package downloads are fast.\n    Metadata and package files are cached on the local disk as well. 'pak'\n    has a dependency solver, so it finds version conflicts before\n    performing the installation. This version of 'pak' supports CRAN,\n    'Bioconductor' and 'GitHub' packages as well.",
+        "License": "GPL-3",
+        "URL": "https://pak.r-lib.org/, https://github.com/r-lib/pak",
+        "BugReports": "https://github.com/r-lib/pak/issues",
+        "Depends": "R (>= 3.5)",
+        "Imports": "tools, utils",
+        "Suggests": "callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc\n(>= 1.4.1), filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2),\njsonlite (>= 1.8.0), mockery, pingr, pkgbuild (>= 1.4.2),\npkgcache (>= 2.0.4), pkgdepends (>= 0.5.0.9001), pkgsearch (>=\n3.1.0), processx (>= 3.8.1), ps (>= 1.6.0), rstudioapi,\ntestthat (>= 3.2.0), withr",
+        "ByteCompile": "true",
+        "Config/build/extra-sources": "configure*",
+        "Config/needs/dependencies": "callr, desc, cli, curl, filelock, jsonlite,\npkgbuild, pkgcache, pkgdepends, pkgsearch, processx, ps,",
+        "Config/Needs/website": "r-lib/asciicast, rmarkdown, roxygen2,\ntidyverse/tidytemplate",
+        "Config/Needs/deploy": "cli@3.6.2, curl, desc, gitcreds, glue@1.6.2,\njsonlite, processx",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3.9000",
+        "Biarch": "true",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-03-17 17:55:35 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Jim Hester [aut],\n  Posit Software, PBC [cph, fnd],\n  Winston Chang [ctb] (R6, callr, processx),\n  Ascent Digital Services [cph, fnd] (callr, processx),\n  Hadley Wickham [ctb, cph] (cli, curl, pkgbuild),\n  Jeroen Ooms [ctb] (curl, jsonlite),\n  Maëlle Salmon [ctb] (desc, pkgsearch),\n  Duncan Temple Lang [ctb] (jsonlite),\n  Lloyd Hilaiel [cph] (jsonlite),\n  Michel Berkelaar and lpSolve authors [ctb] (lpSolve),\n  R Consortium [fnd] (pkgsearch),\n  Jay Loden [ctb] (ps),\n  Dave Daeschler [ctb] (ps),\n  Giampaolo Rodola [ctb] (ps),\n  Kuba Podgórski [ctb] (zip),\n  Rich Geldreich [ctb] (zip)",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-03-17 18:30:06 UTC",
+        "Built": "R 4.4.0; aarch64-apple-darwin20; 2024-04-05 17:48:23 UTC; unix"
+      }
+    },
     "promises": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1602,6 +1635,41 @@
         "RemoteSha": "3.4.2"
       }
     },
+    "useself": {
+      "Source": "github",
+      "Repository": null,
+      "description": {
+        "Package": "useself",
+        "Title": "Test quarto vignettes that use the current package",
+        "Version": "0.0.0.9000",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "What the package does (one paragraph).",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "Roxygen": "list(markdown = TRUE)",
+        "RoxygenNote": "7.3.1",
+        "Suggests": "quarto",
+        "VignetteBuilder": "quarto",
+        "URL": "https://github.com/hadley/useself",
+        "BugReports": "https://github.com/hadley/useself/issues",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-08-12 19:13:19 UTC; yvonnehassink",
+        "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+        "Built": "R 4.4.1; ; 2024-08-12 19:13:19 UTC; unix",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "useself",
+        "RemoteUsername": "hadley",
+        "RemotePkgRef": "hadley/useself",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "e08c185e0243d1322ce7c2077bbf59c00301e342",
+        "GithubRepo": "useself",
+        "GithubUsername": "hadley",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "e08c185e0243d1322ce7c2077bbf59c00301e342"
+      }
+    },
     "usethis": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1838,10 +1906,10 @@
   },
   "files": {
     "app.R": {
-      "checksum": "9a952d386638f2d16bf21ea64d0aa9ea"
+      "checksum": "8d3d7e2be7b0ed461a7854ede688dba9"
     },
     "workshop code.R": {
-      "checksum": "7cfebfa84ff4b5811ec7ad5357b6c338"
+      "checksum": "9f82fa43bf8a786ae27ec73b6e3bb1d9"
     }
   },
   "users": null
