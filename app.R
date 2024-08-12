@@ -20,7 +20,8 @@ ui <- fluidPage(
     ),
     mainPanel(
       h3("Your Mad Libs Story:"),
-      textOutput("story")
+      textOutput("story"),
+      h3("code @ https://github.com/YvonneHassink/madlibs")
     )
   )
 )
